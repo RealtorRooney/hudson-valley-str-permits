@@ -29,9 +29,10 @@ So 22 of these municipalities were read directly from the local law text rather 
 | `also_covers` | Hamlets and clarifications, e.g. "includes Tillson", "not the Village" |
 | `tier` | `open`, `one_condition`, `effectively_closed` |
 | `tier_label` | Human-readable tier |
-| `confidence` | `verified` or `reported` (see below) |
-| `has_caveat` | `yes` where the entry carries both a verified and a reported element |
-| `summary` | The entry text |
+| `confidence` | `verified` or `reported`, applying to `summary` (see below) |
+| `summary` | The entry text at the confidence level above |
+| `caveat_confidence` | Confidence level of `caveat`, where one exists. Always the opposite of `confidence` |
+| `caveat` | Text held at the other confidence level. Empty for most rows |
 
 ## Confidence
 
@@ -44,7 +45,11 @@ Two entries carry `verified` on a different basis and are flagged in the summary
 
 **`reported`** means secondary sources and local reporting. Treat with care: this is exactly where published summaries disagree with each other.
 
-**`has_caveat` = yes** marks entries where part is verified and part is not. Town of Kingston is the clearest case: the law provably exists, and not one of its operative terms could be read.
+**Rows with a `caveat`** hold two confidence levels at once, which is why the text is split across two fields rather than run together. Three rows do this.
+
+Town of Kingston is the clearest case. Its `summary` is `verified`: Chapter 314 provably exists, created by Introductory Local Law 1 of 2023, with the state environmental review notice published 3 January 2024. Its `caveat` is `reported`: not one operative term of it could be read, because the only published copy is a scanned image with no readable text.
+
+If you are filtering this dataset, filter on `confidence` for the main claim and read `caveat` before relying on any row that has one.
 
 ## Known limits
 
