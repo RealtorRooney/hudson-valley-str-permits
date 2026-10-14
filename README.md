@@ -40,8 +40,8 @@ So 22 of these municipalities were read directly from the local law text rather 
 
 Two entries carry `verified` on a different basis and are flagged in the summary text rather than buried:
 
-- **City of Kingston** — source is the city's published short-term rental fact sheet, not the law.
-- **Town of Kingston** — the law's existence and adoption record are documented, but no operative term is readable in any published copy.
+- **City of Kingston:** source is the city's published short-term rental fact sheet, not the law.
+- **Town of Kingston:** the law's existence and adoption record are documented, but no operative term is readable in any published copy.
 
 **`reported`** means secondary sources and local reporting. Treat with care: this is exactly where published summaries disagree with each other.
 
@@ -53,7 +53,7 @@ If you are filtering this dataset, filter on `confidence` for the main claim and
 
 ## Known limits
 
-- Municipal law changes without notice and this is a snapshot.
+- Municipal law changes without notice and this is a snapshot. **Last updated 14 October 2026.**
 - Several entries have open questions documented in the source guide, including Woodstock §260-56, Marlborough §155-32.3 and Town of Kingston Chapter 314, all of which are published only as scanned images with no readable text.
 - An absence of law is harder to prove than a presence. Entries reading "no law found" mean no law was found, not that none exists.
 - **Nothing here is legal advice.** Confirm with the municipality before relying on any of it.
@@ -77,4 +77,8 @@ CC BY 4.0. Use it, adapt it, build on it, commercially or otherwise. Just credit
 
 ## Corrections
 
-If an entry is wrong, open an issue or email rrooney@stevensre.com. Corrections get made on the source page with credit to whoever found them. Four entries have already been corrected that way, and those corrections are shown on the page rather than quietly swapped.
+If an entry is wrong, open an issue or email rrooney@stevensre.com. Corrections get made on the source page with credit to whoever found them. Several entries have already been corrected, and those corrections are shown on the page rather than quietly swapped.
+
+## Changelog
+
+- **14 October 2026.** Town of Rhinebeck: the hospitality moratorium was adopted on 14 September 2026 as Local Law 3 of 2026, and the adopted version excludes short-term rentals; a proposed 3% occupancy tax reaching short-term rentals added. City of Kingston: cap updated to 112 as of September 2026, with the December 2025 reopening (correction made on the page 12 October 2026). Town of Kingston caveat updated to match.
