@@ -121,6 +121,127 @@
     "caveat": ""
   },
   {
+    "municipality": "Town of Durham",
+    "county": "Greene",
+    "also_covers": "East Durham, Oak Hill, Cornwallville",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "No short-term rental law and no zoning. I checked the town's local-law index directly and found no rental chapter of any kind, and the town's 2020 Comprehensive Plan says Durham \"has no zoning ordinances.\" The Town Board doubles as the planning board. Renting an existing house needs no town permit that I could find. Building something new is different: the Site Plan Review Law (Local Law 2 of 2005) requires site plan review for any change of use beyond a one- or two-family home, and for commercial additions to one. A 20-unit short-term rental project came before the board for site plan review in 2023. Two caveats. The 2017 Building Law is posted only as a scanned image, so I have not read it. And in August 2023 the board discussed short-term rentals as a revenue source, met \"a lot of opposition,\" and noted it \"may need to re-visit\" the issue. I read every set of board minutes from January 2025 through July 2026 and none has a short-term rental item. About 40% of the town's homes are second homes.",
+    "caveat_confidence": "reported",
+    "caveat": "From Wikipedia rather than town records: the hamlet called East Windham sits on Durham's southern town line, so an East Windham mailing address may be in the Town of Durham, not the Town of Windham. Check the tax map."
+  },
+  {
+    "municipality": "Town of Athens",
+    "county": "Greene",
+    "also_covers": "not the Village",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "Chapter 147, Local Law 1 of 2017. An annual rental registration certificate from the Town Clerk. No cap and no owner-occupancy requirement. An owner whose principal residence is outside Greene County must name a local contact who lives in the county and is available at all times; there is no distance rule. Occupancy is two per unit plus two per bedroom overnight, with no more than one vehicle per two guests. The chapter has no inspection requirement and does not address transfer on sale. Three violations in 24 months lets the Code Enforcement Officer suspend or revoke the certificate. One quirk: the law defines a short-term rental as a stay of eight consecutive days or less, so stays of nine to 29 nights fall outside it. The fee is set by Town Board resolution. I have not read the zoning chapter's use table.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Village of Tannersville",
+    "county": "Greene",
+    "also_covers": "inside the Town of Hunter",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "Local Law 3 of 2025, filed with the Secretary of State on 22 September 2025. Every short-term rental needs a permit from the Code Enforcement Officer, expiring 31 December each year. No cap, no owner-occupancy requirement, no per-owner limit, and no hearing for an ordinary permit. Occupancy is two per bedroom plus two; above eleven guests the Planning Board may require site plan approval. Two contacts are required, one answering within 60 minutes around the clock. The permit is not transferable: a buyer files a new application. Fines run $500 to $5,000, and operating without a permit carries at least $5,000 per occurrence. The fee is set by board resolution, and the posted fee sheet is a scanned image I could not read. Check the tax map: many Tannersville addresses are in the Town of Hunter instead, which has its own law.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Village of Catskill",
+    "county": "Greene",
+    "also_covers": "not the Town",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "Zoning Section 4.15, in force since 2021 and amended in 2024. My source is the village's own permit application rather than the law text, which I could not find online. A permit valid for one calendar year, expiring 31 December: $500 per unit to start and $200 per unit to renew. The application states no cap and no owner-occupancy requirement. A contact must be able to reach the property by car within 20 minutes, and the Code Enforcement Officer inspects at least once every three years. Off-street parking must cover full occupancy, with no lawn or street parking. Unusually, the permit is transferable to a new owner who registers with the village and agrees in writing to comply. Not established: which zoning districts allow short-term rentals. This is a separate government from the Town of Catskill, which has a 30-minute host rule.",
+    "caveat_confidence": "reported",
+    "caveat": "Local reporting in February 2024 said the village was seeking state approval for a 4% occupancy tax."
+  },
+  {
+    "municipality": "Town of Cairo",
+    "county": "Greene",
+    "also_covers": "",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "No short-term rental law. I checked the town's local-law listings and searched its website directly, and found nothing on short-term rentals or lodging, and the town's 2026 moratoriums are on cannabis and battery storage, not rentals. The zoning law (Local Law 2 of 2017) is the thing to understand. It lists bed-and-breakfasts, inns and hotels, mostly by Planning Board special use permit, but says nothing about short-term or vacation rentals, and it states that \"any use not listed in the Use Table is prohibited.\" Whether a whole-house rental counts as an ordinary single-family dwelling is a question for the zoning officer, in writing, before you buy. Worth knowing: a \"petition pertaining to local Air B&B rental\" reached the Town Board as correspondence on 19 August 2026. Nothing about rentals has appeared on an agenda since.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Town of Coxsackie",
+    "county": "Greene",
+    "also_covers": "not the Village",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "No short-term rental law. The town's code, current through August 2025, has no rental chapter; its three 2026 local laws cover data centers, a zoning map change and a watershed overlay; and the building fee schedule effective May 2026 has no rental fee of any kind. The same zoning question as Cairo applies: Chapter 201 says \"any use not listed in Schedules A and B shall be deemed not permitted,\" and I have not read the schedules, so confirm with the building inspector that a whole-house rental is treated as a dwelling. The Village of Coxsackie inside the town regulates heavily, so check the tax map.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Village of Saugerties",
+    "county": "Ulster",
+    "also_covers": "not the Town",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "Chapter 148, Rental Property, with short-term rentals added by Local Law 1 of 2023 on 2 October 2023. Registration with the Village Building Inspector, not a permit. No cap, no owner-occupancy rule and no short-term rental operating standards in the chapter. An owner who doesn't live in Ulster County must name a managing agent who does. On a sale, the owner files a sworn statement naming the new owner within 15 days. Fines run $250 to $500 a day. Not checked: whether the village zoning law limits where rentals can operate. This is a separate government from the Town of Saugerties.",
+    "caveat_confidence": "reported",
+    "caveat": "Local reporting at adoption in 2023 said registration is free."
+  },
+  {
+    "municipality": "Town of Prattsville",
+    "county": "Greene",
+    "also_covers": "",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "reported",
+    "summary": "No short-term rental law that I could find, but the town has no website or online code, so this rests on one report: in June 2023 the town supervisor told the Mountain Eagle the board had no interest in regulating short-term rentals. Confirm with the town clerk at 518-299-3186.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Town of New Baltimore",
+    "county": "Greene",
+    "also_covers": "",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "No short-term rental law. The town's posted code has no rental chapter, though the town warns its web copy may not be current. The zoning law (Local Law 4 of 2016) lists bed-and-breakfasts, inns and hotels but not short-term or vacation rentals, and states that \"any use not listed in the following table is deemed prohibited.\" The same question as Cairo applies: ask the building department how a whole-house rental is classified before you buy. I have not checked 2026 board agendas.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Town of Halcott",
+    "county": "Greene",
+    "also_covers": "",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "No short-term rental law. The town's list of local laws on file has no rental or lodging law, and the Land Use Code, updated in 2025, has no short-term or vacation rental use in the text I could read. The same zoning question as Cairo applies: Section 3.1 says \"all land uses not included in this table shall be considered prohibited,\" and the table lists bed-and-breakfasts, boarding houses and country inns but not whole-house rentals. Ask the Code Enforcement Officer (845-586-2074) before you buy. Board minutes from April to August 2026 show nothing on rentals. Very little inventory.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Village of Hunter",
+    "county": "Greene",
+    "also_covers": "inside the Town of Hunter",
+    "tier": "open",
+    "tier_label": "Open door",
+    "confidence": "verified",
+    "summary": "No short-term rental law. The village's local-law page and permit list have nothing on rentals. The zoning law (Local Law 3 of 2013) is the problem. It says a dwelling does not include \"hotels, boarding houses or other transient quarters,\" allows bed-and-breakfasts and hotels only in the business and recreation districts, lists neither in the Village Residential District, and prohibits every unlisted use without a use variance. Whether a whole-house rental in a residential part of the village is legal is unresolved. Ask the Building Inspector in writing before you buy; Village Hall is 518-263-4020. I have not checked village board minutes.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
     "municipality": "Town of Rochester",
     "county": "Ulster",
     "also_covers": "",
@@ -238,6 +359,50 @@
     "tier_label": "One real condition",
     "confidence": "verified",
     "summary": "Zoning \u00a7100-42.1, added by Local Law 7 of 2022 and amended by Local Law 2 of 2024. Two steps: a Planning Board special use permit, then a Building Department short-term rental permit. Permits run two years and expire 31 December; renewals are filed 1 October to 1 December and are themselves subject to the cap on a first-come-first-served basis. Annual inspection by the code enforcement officer. Owner occupancy is not required. Two permits per owner maximum , one owner-occupied and one non-owner-occupied, and that limit follows the people behind an entity, not just the entity. Permits may not be assigned, pledged, sold or otherwise transferred. Allowed as an accessory use to single-family and two-family dwellings in the A, R-2, R-1, R-1/2, R-1/4 and CB districts only. The cap is written as a percentage, not a number: 2% of total dwelling units in the town, amendable by the Town Board at any time. I could not find the current permit count, so I cannot tell you whether there is room. That is the first call to make. Do not confuse the Town of Lloyd, which contains the hamlet of Highland in Ulster County, with the Town of Highland in Sullivan County listed above. Different governments, different laws. The pattern worth internalizing: wherever a zoning board has discretion, as in Hillsdale, Highland, Esopus and Lloyd, getting a permit means a hearing rather than a form. Build that time into the contract.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Village of Athens",
+    "county": "Greene",
+    "also_covers": "not the Town",
+    "tier": "one_condition",
+    "tier_label": "One real condition",
+    "confidence": "verified",
+    "summary": "Chapter 199, Local Law 3 of 2020, amended by Local Law 3 of 2024. An annual permit from the Code Enforcement Officer, renewed by 31 January, with an annual fire inspection added in 2024. No numerical cap. The condition is owner occupancy: a property not occupied by the owner and used mainly for income is a \"short-term rental investment property\" under the law and needs a special use permit from the Planning Board, which is a hearing, not a form. Every rental needs a local contact living within 20 miles. Occupancy is two plus two per bedroom overnight. Permits are nontransferable and expire on any change of ownership. Three violations in 24 months can mean revocation and up to three years' ineligibility.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Village of Coxsackie",
+    "county": "Greene",
+    "also_covers": "not the Town",
+    "tier": "one_condition",
+    "tier_label": "One real condition",
+    "confidence": "verified",
+    "summary": "Chapter 111, rewritten in full by Local Law 4 of 2023 on 14 August 2023. An annual rental registration certificate from the Village Clerk, at $250 per building plus $100 per unit, with an annual Code Enforcement inspection. The condition is location: new short-term rentals are registered only in the Community Commercial district, capped at 15, and the Village Center district, capped at 10 buildings. Rentals that already existed could register as nonconforming uses, but that status is lost on non-renewal, a transfer without the permit, or six months of disuse. A new owner must file a new registry form within 60 days of closing. Occupancy is two plus two per bedroom overnight. The village also adopted a hotel and short-term rental occupancy tax in 2025 (Local Law 3 of 2025). Not established: whether either cap is full, and what two local laws heard on 21 September 2026 cover, because the posted minutes are scanned images.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Town of Plattekill",
+    "county": "Ulster",
+    "also_covers": "Modena; check the tax map in Clintondale",
+    "tier": "one_condition",
+    "tier_label": "One real condition",
+    "confidence": "verified",
+    "summary": "Chapter 86, Local Law 4 of 2025, adopted 15 October 2025. An annual permit plus a yearly fire and safety inspection, and the Ulster County registration number must appear in every listing. The condition is the per-owner limit: one owner-occupied and one non-owner-occupied rental per person. The Town Board can also set caps on both by resolution; I have not found that it has. Allowed in every district except GB-80, and not in buildings of three or more units unless the owner lives in one. A host must live within 10 miles and deal with problems within 24 hours. Maximum 10 guests, two per bedroom, one booking at a time, and off-street parking for one car per bedroom plus one. Permits are not transferable. The town ran an amnesty to 1 June 2026 and said it would issue cease-and-desist orders to rentals with no application by 1 May 2026. Fines up to $500 a day.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Town of Greenville",
+    "county": "Greene",
+    "also_covers": "",
+    "tier": "one_condition",
+    "tier_label": "One real condition",
+    "confidence": "verified",
+    "summary": "No dedicated short-term rental law, but the new zoning law covers them anyway. Chapter 205 (Local Law 2 of 2024, adopted 13 June 2024) defines a tourist home as \"a dwelling in which overnight accommodations are provided or offered for transient guests for compensation,\" which describes a whole-house rental, and says a dwelling does not include a tourist home. A tourist home needs a one-year permit from the Building Inspector, issued only after an inspection, and it is unlawful to list or advertise one without a current permit (licensed real estate agents acting only as agents are exempt). The condition is the use tables: tourist home appears only in the Commercial Mixed-Use district, as a special use, which goes to the Planning Board. The Rural Residential and Conservation tables list boardinghouse and bed-and-breakfast but not tourist home. Ask the Building Inspector in writing how a whole-house rental outside the commercial district is treated before you buy. Violations are offenses under the Penal Law: up to $500 and 15 days for a first offense.",
     "caveat_confidence": "",
     "caveat": ""
   },
@@ -403,6 +568,17 @@
     "tier_label": "Effectively closed",
     "confidence": "reported",
     "summary": "Prohibited in R-1/2, R-1/3 and R-1/4. $500 a year where allowed. 60-minute local contact rule.",
+    "caveat_confidence": "",
+    "caveat": ""
+  },
+  {
+    "municipality": "Town of Lexington",
+    "county": "Greene",
+    "also_covers": "",
+    "tier": "effectively_closed",
+    "tier_label": "Effectively closed",
+    "confidence": "verified",
+    "summary": "Local Law 4 of 2023, amending a 2021 law. My source is the town's own short-term rental page and its \"STR Basics\" summary; the law PDFs themselves are scanned images. Non-resident permits are capped at 62. As of 14 October 2026 all 62 are issued, none are available, and about five applicants are on the waiting list. Resident permits are uncapped. Permits are non-transferable, so buying from a permit holder does not get you a permit: a non-resident buyer joins the waiting list. A rental may sleep no more than 15; above that it is treated as a lodging facility. The owner or emergency contact must live within 30 miles. Three violations in a calendar year means revocation. I have not read how the law defines a resident.",
     "caveat_confidence": "",
     "caveat": ""
   }
