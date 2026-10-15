@@ -1,6 +1,6 @@
 # Hudson Valley & Catskills Short-Term Rental Permit Dataset
 
-Town-by-town short-term rental permit rules for 95 municipalities across seven New York counties: Ulster, Greene, Sullivan, Delaware, Dutchess, Columbia and Orange.
+Town-by-town short-term rental permit rules for 123 municipalities across seven New York counties: Ulster, Greene, Sullivan, Delaware, Dutchess, Columbia and Orange.
 
 **Scoped to the question investors actually ask: can a non-resident owner still get a permit here?**
 
@@ -8,17 +8,17 @@ Town-by-town short-term rental permit rules for 95 municipalities across seven N
 
 Published summaries of these laws contradict each other regularly, and several contradict the town's own code. Shandaken's cap appears as 150 in its codified law and 100 on the town website. Woodstock's cap has been reported as both 340 and 285. Woodstock, Vermont rules circulate widely as though they were Woodstock, New York.
 
-So 71 of these municipalities were read directly from the local law text rather than from anyone's summary.
+So 113 of these municipalities were read directly from the local law text rather than from anyone's summary.
 
 ## Files
 
 | File | Rows | Contents |
 |---|---|---|
-| `hudson-valley-str-permits.csv` | 89 | One row per municipality with a full entry |
-| `hudson-valley-str-permits.json` | 89 | Same data, JSON |
-| `watch-list.csv` | 6 | Municipalities with no law yet but regulation in motion |
+| `hudson-valley-str-permits.csv` | 116 | One row per municipality with a full entry |
+| `hudson-valley-str-permits.json` | 116 | Same data, JSON |
+| `watch-list.csv` | 7 | Municipalities with no law yet but regulation in motion |
 
-89 + 6 = 95.
+116 + 7 = 123.
 
 ## Columns
 
@@ -36,18 +36,17 @@ So 71 of these municipalities were read directly from the local law text rather 
 
 ## Confidence
 
-**`verified`** means the municipality's own local law text was read directly. Seventy-one meet that standard, counting municipalities where the full local-law index or code was read and no short-term rental law was found.
+**`verified`** means the municipality's own local law text was read directly. 113 meet that standard. Every row in the main files is now `verified`, counting municipalities where the full local-law index or code was read and no short-term rental law was found.
 
-Four entries carry `verified` on a different basis and are flagged in the summary text rather than buried:
+Three entries carry `verified` on a different basis and are flagged in the summary text rather than buried:
 
 - **City of Kingston:** source is the city's published short-term rental fact sheet, not the law.
-- **Town of Kingston:** the law's existence and adoption record are documented, but no operative term is readable in any published copy.
-- **Village of Catskill:** source is the village's own permit application, because the zoning section itself is not published online.
+- **Town of Kingston:** the law's existence and adoption record are documented, but no operative term is readable in any published copy, and no filing of it appears in the state's local-law database.
 - **Town of Lexington:** source is the town's own short-term rental page and summary, because the law is posted only as scanned images.
 
 **`reported`** means secondary sources and local reporting. Treat with care: this is exactly where published summaries disagree with each other.
 
-**Rows with a `caveat`** hold two confidence levels at once, which is why the text is split across two fields rather than run together. Ten rows do this.
+**Rows with a `caveat`** hold two confidence levels at once, which is why the text is split across two fields rather than run together. Nine rows do this.
 
 Town of Kingston is the clearest case. Its `summary` is `verified`: Chapter 314 provably exists, created by Introductory Local Law 1 of 2023, with the state environmental review notice published 3 January 2024. Its `caveat` is `reported`: not one operative term of it could be read, because the only published copy is a scanned image with no readable text.
 
@@ -55,7 +54,7 @@ If you are filtering this dataset, filter on `confidence` for the main claim and
 
 ## Known limits
 
-- Municipal law changes without notice and this is a snapshot. **Last updated 14 October 2026.**
+- Municipal law changes without notice and this is a snapshot. **Last updated 15 October 2026.**
 - Several entries have open questions documented in the source guide, including Woodstock §260-56, Marlborough §155-32.3 and Town of Kingston Chapter 314, all of which are published only as scanned images with no readable text.
 - An absence of law is harder to prove than a presence. Entries reading "no law found" mean no law was found, not that none exists.
 - **Nothing here is legal advice.** Confirm with the municipality before relying on any of it.
@@ -83,6 +82,7 @@ If an entry is wrong, open an issue or email rrooney@stevensre.com. Corrections 
 
 ## Changelog
 
+- **15 October 2026.** Twenty-eight Delaware County municipalities added, all `verified` from the laws they have filed with the New York Department of State: the Towns of Andes, Bovina, Colchester, Davenport, Delhi, Deposit, Franklin, Hamden, Hancock, Harpersfield, Kortright, Masonville, Meredith, Middletown, Sidney, Stamford, Tompkins and Walton, and the Villages of Delhi, Deposit, Fleischmanns, Franklin, Hancock, Hobart, Margaretville, Sidney, Stamford and Walton. Every row that was `reported` was re-read from the law and is now `verified`. Corrections: Hardenburgh moves from the main files to the watch list (a 2025 moratorium on short-term rental applications, with special permits in its zoning); East Fishkill moves from `effectively_closed` to `open` (no cap or owner-occupancy rule in Local Law 4 of 2023); Hillsdale's law is Local Law 2 of 2019, not 2 of 2022; Jewett's reported local-manager rule is not in its laws. Village of Catskill is now read from its zoning text rather than its application (contact rule is one hour, not 20 minutes; 4% village occupancy tax since 2025).
 - **14 October 2026 (night).** Fifteen Sullivan County municipalities added, all `verified`: the Towns of Fallsburg, Forestburgh, Fremont, Liberty, Lumberland, Mamakating, Neversink, Rockland, Thompson and Tusten, and the Villages of Bloomingburg, Jeffersonville, Liberty, Monticello and Wurtsboro. Twelve have no short-term rental law; for most, the check was a full-text search of every local law filed with the New York Department of State. Two findings matter: the Village of Monticello banned short-term rentals in its residential districts with Local Law 4 of 2026, filed 30 September 2026, and the Town of Rockland adopted Chapter 144 in 2023 (permits limited to primary or seasonal owners).
 - **14 October 2026 (evening).** Twenty-one Dutchess County municipalities added, all `verified`: the Towns of Amenia, Beekman, Clinton, Dover, Fishkill, Hyde Park, Milan, North East, Pawling, Pine Plains, Pleasant Valley, Poughkeepsie, Stanford, Union Vale, Wappinger and Washington, the City of Poughkeepsie, and the Villages of Fishkill, Millbrook, Millerton and Wappingers Falls. LaGrange added to the watch list.
 - **14 October 2026 (later).** Sixteen municipalities added: in Greene County the Towns of Durham, Athens, Cairo, Coxsackie, Greenville, Halcott, Lexington, New Baltimore and Prattsville and the Villages of Athens, Catskill, Coxsackie, Hunter and Tannersville; in Ulster County the Town of Plattekill and the Village of Saugerties. Fifteen are `verified`, Prattsville is `reported`. Lexington is the notable one: its 62 non-resident permits are all issued.
