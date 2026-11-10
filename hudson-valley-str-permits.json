@@ -6,7 +6,7 @@
     "tier": "open",
     "tier_label": "Open door",
     "confidence": "verified",
-    "summary": "No local short-term rental law. Nothing appears in the town's current local-law index, which I checked directly.",
+    "summary": "No local short-term rental law. Nothing appears in the town's current local-law index, which I checked directly. Updated 10 November 2026, read from the town's new zoning law: Windham adopted its first zoning law on 11 June 2026 (Local Law 3 of 2026), and the town says it took effect on 1 August 2026. It never mentions short-term rentals, but it requires a special use permit for \"lodging\", defined as any establishment that offers temporary accommodation to the public for a fee, in the Rural Residential and Hamlet districts, bans lodging in the Planned Residential district, and prohibits any use its table doesn't list. Whether the town treats a whole house rented by the night as a one-family dwelling, which is allowed in every district, or as lodging isn't settled; ask the zoning enforcement officer in writing. A use that existed when the law passed needs no special use permit while it stays in continuous operation.",
     "caveat_confidence": "reported",
     "caveat": "Separately, and from secondary sources rather than the index: a 2020 draft was reportedly pulled after a petition said to carry around 1,400 signatures."
   },
@@ -787,7 +787,7 @@
     "tier": "one_condition",
     "tier_label": "One real condition",
     "confidence": "verified",
-    "summary": "Local Law 5 of 2024, \u00a775-28.4. Two-year permit. No town-wide cap, but each owner gets one owner-occupied plus one non-owner-occupied permit . $1M landlord liability required. Local manager with 30-minute response if the owner lives more than 10 miles from Town Hall. Does not transfer on sale. Full detail below.",
+    "summary": "Local Law 5 of 2024, \u00a775-28.4. Two-year permit. No town-wide cap, but each owner gets one owner-occupied plus one non-owner-occupied permit . $1M landlord liability required. Local manager with 30-minute response if the owner lives more than 10 miles from Town Hall. Does not transfer on sale. Updated 10 November 2026: in August 2025 the Town Board adopted Local Law 2 of 2025, amending \u00a775-28.4(s)(6) \"to allow grandfathering of certain properties.\" The Ulster County Planning Board asked that the grandfathered rentals not transfer to new owners; the Town Board overrode it by a supermajority. I have not found the amended text, so ask the Building Department whether a property is one of them. Full detail below.",
     "caveat_confidence": "",
     "caveat": ""
   },
